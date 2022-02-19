@@ -55,6 +55,12 @@
 	}
 
 	function showProgress() {
+		var arg = {
+			msg: "ZWX",
+		};
+		bridge.call('showToast', arg, function(res) {
+			alert(res.msg);
+		});
 		var circle = document.getElementById("circle");
 		circle.className = ""
 		setTimeout(()=>{
