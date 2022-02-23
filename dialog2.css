@@ -96,7 +96,7 @@
   z-index: 166;
   height: 100px;
   border-radius: 50px;
-  box-shadow: 0px 5px 30px 0px rgba(255, 66, 80, 0.4);
+  /* box-shadow: 0px 5px 30px 0px rgba(255, 66, 80, 0.4); */
   align-self: center;
   margin-top: 84px;
   width: 360px;

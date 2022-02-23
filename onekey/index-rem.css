@@ -1,0 +1,213 @@
+.page {
+  z-index: 1;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.section1 {
+  z-index: 2;
+  height: 100%;
+  background: linear-gradient(144deg, #fbf8fa 0%, #E8EDF1 100%);
+  width: 100%;
+}
+
+.outer1 {
+  z-index: auto;
+  width: 19.0rem;
+  height: 0.3rem;
+  margin: 0.05rem 0 0 0.1rem;
+}
+
+.label1 {
+  z-index: 22;
+  width: 0.4rem;
+  height: 0.3rem;
+}
+
+.label2 {
+  z-index: 20;
+  width: 0.4rem;
+  height: 0.3rem;
+  margin-left: 0.05rem;
+}
+
+.word1 {
+  z-index: 19;
+  width: 0.45rem;
+  height: 0.28rem;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(0, 0, 0, 1);
+  font-size: 0.24rem;
+  letter-spacing: -0.479999989271163.94rem;
+  font-family: Roboto-Regular;
+  white-space: nowrap;
+  line-height: 0.28rem;
+  text-align: left;
+  margin: 0.01rem 0 0 8.42rem;
+}
+
+.txt1 {
+  z-index: 18;
+  width: 0.5700000000000001rem;
+  height: 0.28rem;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(0, 0, 0, 1);
+  font-size: 0.24rem;
+  letter-spacing: -0.479999989271163.94rem;
+  font-family: Roboto-Regular;
+  white-space: nowrap;
+  line-height: 0.28rem;
+  text-align: left;
+  margin: 0.01rem 0 0 8.16rem;
+}
+
+.img1 {
+  z-index: 11;
+  width: 0.5rem;
+  height: 0.3rem;
+  margin-left: 0.05rem;
+}
+
+.outer2 {
+  z-index: auto;
+  width: 18.2rem;
+  height: 0.47000000000000003rem;
+  margin: 0.65rem 0 0 0.5rem;
+}
+
+.label3 {
+  z-index: 35;
+  width: 0.4rem;
+  height: 0.4rem;
+  margin-top: 0.03rem;
+}
+
+.word2 {
+  z-index: 34;
+  width: 0.89rem;
+  height: 0.47000000000000003rem;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(119, 124, 138, 1);
+  font-size: 0.4rem;
+  font-family: Roboto-Regular;
+  white-space: nowrap;
+  line-height: 0.47000000000000003rem;
+  text-align: left;
+  margin-left: 0.1rem;
+}
+
+.word3 {
+  z-index: 40;
+  width: 0.64rem;
+  height: 0.32rem;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(119, 124, 138, 1);
+  font-size: 0.32rem;
+  font-family: SourceHanSansCN-Normal;
+  white-space: nowrap;
+  line-height: 0.32rem;
+  text-align: center;
+  margin: 0.08rem 0 0 0.05rem;
+}
+
+.txt2 {
+  z-index: 31;
+  width: 1.28rem;
+  height: 0.32rem;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(255, 72, 91, 1);
+  font-size: 0.32rem;
+  font-family: SourceHanSansCN-Regular;
+  white-space: nowrap;
+  line-height: 0.32rem;
+  text-align: right;
+  margin-left: 14.84rem;
+}
+
+.outer3 {
+  z-index: auto;
+  width: 1.28rem;
+  height: 0.01rem;
+  margin-left: 17.42rem;
+}
+
+.outer4 {
+  z-index: auto;
+  width: 4.4rem;
+  height: 0.88rem;
+  margin: 1.72rem 0 0 7.4rem;
+}
+
+.info1 {
+  z-index: 5;
+  width: 4.4rem;
+  height: 0.88rem;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(45, 53, 72, 1);
+  font-size: 0.88rem;
+  font-family: SourceHanSansCN-Medium;
+  white-space: nowrap;
+  line-height: 0.88rem;
+  text-align: center;
+}
+
+.outer5 {
+  z-index: auto;
+  width: 1.6rem;
+  height: 0.4rem;
+  margin: 0.6rem 0 0 8.8rem;
+}
+
+.word4 {
+  z-index: 4;
+  width: 1.6rem;
+  height: 0.4rem;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(119, 124, 138, 1);
+  font-size: 0.4rem;
+  font-family: SourceHanSansCN-Normal;
+  white-space: nowrap;
+  line-height: 0.4rem;
+  text-align: center;
+}
+
+.outer6 {
+  z-index: auto;
+  width: 6.4rem;
+  height: 1.36rem;
+  margin: 1.8rem 0 0 6.4rem;
+}
+
+.submit {
+	width: 6.4rem;
+	height: 1.36rem;
+	background: linear-gradient(225deg, #FF5D88 0%, #FF3F49 100%);
+	border-radius: 88px;
+	margin: 0 0 9% 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.word5 {
+  z-index: 8;
+  width: 1.58rem;
+  height: 0.48rem;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(255, 255, 255, 1);
+  font-size: 0.48rem;
+  font-family: SourceHanSansCN-Medium;
+  white-space: nowrap;
+  line-height: 0.48rem;
+  text-align: left;
+}
