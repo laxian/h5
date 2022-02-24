@@ -71,9 +71,37 @@ function startTimer() {
 	timer = setInterval(function () {
 		timeLeft--
 		timerEle.innerHTML = timeLeft + 's'
+		if (timeLeft < 1) {
+			stopTimer();
+			notifyAndroid('timeout')
+		}
 	}, 1000)
 }
 
 function stopTimer() {
 	clearInterval(timer)
+}
+
+function setUpButton() {
+	var btn = document.getElementById("submit");
+	btn.onclick = () => notifyAndroid('confirm')
+}
+
+function setUpCancel() {
+	var btn = document.getElementById("cancel");
+	btn.onclick = () => notifyAndroid('cancel')
+}
+
+function notifyAndroid(event) {
+	console.log(event)
+	var arg = {};
+	bridge.call(event, arg, function (res) {
+		console.log(res.msg);
+	});
+}
+
+window.onload = function () {
+	setUpCancel()
+	setUpButton()
+	startTimer()
 }
